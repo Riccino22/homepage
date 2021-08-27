@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient( 
+        to left,
+        #2cdfff,
+        #7f7ff3
+    );
+    flex-direction: column;
+}
+
+
+
+#textual{
+    font-size: 160pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #00006b;
+}
+
+
+p{
+    color: #fff;
+    font-size: 15pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    text-decoration:  underline;
+}

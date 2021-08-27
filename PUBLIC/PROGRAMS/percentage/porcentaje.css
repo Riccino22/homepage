@@ -1,0 +1,43 @@
+body{
+	font-family: "Aharoni";
+	color: #88ffb2bf;
+	background: linear-gradient(to right, #026969, #0007d9);
+	font-size: 30pt;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+}
+
+
+input{
+	height: 50px;
+	width: 100px;
+	font-size: 20pt;
+}
+
+
+button{
+	width: 200px;
+	height: 50px;
+	font-size: 20pt;
+	background-color: #00f483b3;
+	color: white;
+	cursor: pointer;
+	box-shadow: 10px 10px 10px #333;
+	border-radius: 10px;
+	border: none;
+}
+
+
+a{
+	color: #2d8be2;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}

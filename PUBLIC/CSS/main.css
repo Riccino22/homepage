@@ -1,0 +1,294 @@
+body{
+    /*background: -webkit-repeating-linear-gradient(to right, #00e1ff, #ff00bf);*/
+    background: linear-gradient(to right, #ff00bf, #00e1ff);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+}
+
+
+h1{
+    animation-name: cargar;
+    animation-duration: 3s;
+
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: #37f0f7ef;
+}
+
+a:hover{
+    color: #11c0a9;
+    animation-name: hiperLink;
+    animation-duration: 1s;
+}
+
+
+
+
+#icon{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  	animation: App-logo-spin; 
+    animation-duration: 2s;
+
+}
+
+#plantilla{
+    background:#070300b0;
+    width: 100%;
+    min-width: 10px;
+    height: 1000px;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    position: absolute;
+    animation-name: cargar;
+    animation-duration: 3s;
+}
+
+#skills{
+    margin-top: 50px;
+}
+
+#skills:hover{
+    width: var(--h)!important;
+}
+
+
+#boton1{
+    border-style: none;
+    /*background-image: url("btn/btn5.png");*/
+    /*background: -webkit-repeating-linear-gradient(to right, #0704ff, #03a0ff);*/
+    background: linear-gradient(to right, #0704ff, #03a0ff);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block;
+    box-shadow: 10px 10px  rgba(14, 0, 0, 0.267);
+    animation-name: cargar;
+    animation-duration: 3s;
+
+    
+}
+
+
+
+#boton2{
+    border-style: none;
+    /*background-image: url("btn/btn6.png");*/
+    background: linear-gradient(to right,#03a0ff, #03ffdc);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block; 
+    box-shadow: 10px 10px #0e000044;
+    margin-top: 10px;
+    animation-name: cargar;
+    animation-duration: 3s;
+
+}
+
+
+
+#boton3{
+    border-style: none;
+    background: linear-gradient(to right, #03ffdc,#03ff17);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 10px 10px #0e000044;
+    animation-name: cargar;
+    animation-duration: 3s;
+
+}
+
+
+
+#boton4{
+    border-style: none;
+    background: linear-gradient(to right, #03ff17,#e6ff03);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 10px 10px #0e000044;
+    animation-name: cargar;
+    animation-duration: 3s;
+
+}
+
+
+
+
+
+button:hover{
+    background: var(--hiperWidth) !important;
+}
+
+
+
+
+@keyframes hiperLink{
+    from{
+        color: #37f0f7ef;
+    }
+
+    to{        
+        color: #11c0a9;
+
+    }
+}
+
+
+@keyframes App-logo-spin{
+	from{
+		opacity: 0%;
+
+	}
+
+	to{
+		opacity:100%;
+	}
+}
+
+
+
+
+
+@keyframes cargar{
+	from{
+		background: transparent;
+		color: transparent;
+		background: -webkit-repeating-linear-gradient(to right, transparent,transparent);
+	    background: linear-gradient(to right, transparent,transparent);
+	    margin-top: -4rem;
+        box-shadow: 0 0 0;
+	}
+
+	to{
+		background: default;
+		color: default;
+    	background: -webkit-repeating-linear-gradient(to right, default,default);
+    	background: linear-gradient(to right, default,default);
+    	margin-top: default;
+	}
+}
+
+
+
+
+
+
+
+:root{
+    --hiperWidth:#06edf5;
+}
+
+
+
+
+/*REDES SOCIALES*/
+
+
+#social{
+
+    animation-name: App-logo-spin;
+    animation-duration: 2s;
+}
+
+#WhatsApp{
+    width: 50px;
+    height: 50px;
+    margin-top: -12rem;
+    margin-left: -31.9rem;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+#facebook{
+    width: 50px;
+    height: 50px;
+    margin-top: -12rem;
+    margin-left: -28.9rem;
+    position: fixed;
+    cursor: pointer;
+
+}
+
+
+#linkedIn{
+    width: 50px;
+    height: 50px;
+    margin-top: -12rem;
+    margin-left: -25.9rem;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 50%;
+    animation-name: App-Logo-Spin;
+    animation-duration: 2s;
+}
+
+
+#gmail{
+    width: 50px;
+    height: 50px;
+    margin-top: -12rem;
+    margin-left: -22.9rem;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+/*TLF*/
+
+@media (max-width:900px){
+    body{
+        background-color: #070300ea;    
+    }
+
+    #icon{
+        margin: auto;
+    }
+
+    #WhatsApp{
+        position: absolute;
+        margin-top: -1.5rem;
+        margin-left: 4rem;
+        width: 35px;
+        height: 35px;
+    }
+
+
+    #facebook{
+        position: absolute;
+        margin-left: 6rem;
+        margin-top: -1.5rem;
+        width: 35px;
+        height: 35px;
+    }
+
+    #plantilla{
+        height: 300vh;
+    }
+}

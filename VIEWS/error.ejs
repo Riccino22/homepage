@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/IMG/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Not Found - Riccino22</title>
+    <style>
+        body{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1 id="textError"></h1>
+    <a href="/"><img src="/IMG/logo2.png" width="100"></a>
+    <a href="/"><br> Go to the home</a>
+    </center>
+    <script>
+        let textError = document.querySelector("#textError");
+        textError.innerHTML = `The website ${window.location} don't exist`;
+    </script>
+</body>
+</html>
